@@ -22,5 +22,5 @@ day = datetime.date(1900,1,1)
 while day < datetime.date(2015,1,1):
 	day = day + datetime.timedelta(days=1)
 	for i in range(1000):
-		number = day.strftime("%Y%m%d") + `i`.zfill(3)
+		number = day.strftime("%y%m%d") + `i`.zfill(3)
 		print number + `calculate_luhn(int(number))`
