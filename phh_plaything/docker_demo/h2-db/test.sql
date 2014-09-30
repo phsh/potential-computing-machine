@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS YODA AS SELECT * FROM CSVREAD('/opt/h2-loaddata/data.csv');
