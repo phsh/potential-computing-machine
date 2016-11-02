@@ -10,12 +10,14 @@ Running out of the box.
 ```
  dates.py
 ```
+
 ----------
-Building using docker.
+Building using docker image.
 ----------
 ```
  docker build -t phsh/personnummer . 
 ```
+
 ----------
 Running using docker.
 ----------
