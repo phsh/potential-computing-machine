@@ -29,9 +29,14 @@ class Calculator(object):
 		self.validateNumber( x, y )
 		self.cantBeZero(y)
 		return x / y
-		
+	def character(self, a_char):
+		if a_char == "+":
+			return "add"
+		if a_char == "-":
+			return "sub"
+		return
 	def legal(self):
-		return ["add","sub","multy","divi"]
+		return [ "add", "sub", "multy", "divi", "+", "-" ]
 
 	def isLegal(self, s):
 		return s in self.legal()
