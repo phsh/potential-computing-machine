@@ -43,6 +43,10 @@ class TddInPyhton(unittest.TestCase):
 		result = self.calc.isLegal("divi")		
 		self.assertTrue(result)
 
+	def test_isLegal_subSign_random(self):
+		result = self.calc.isLegal("/")
+		self.assertTrue(result)
+
 	def test_isLegal_multy_true(self):
 		result = self.calc.isLegal("multy")		
 		self.assertTrue(result)

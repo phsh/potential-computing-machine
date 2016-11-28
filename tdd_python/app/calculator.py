@@ -36,7 +36,7 @@ class Calculator(object):
 			return "sub"
 		return
 	def legal(self):
-		return [ "add", "sub", "multy", "divi", "+", "-" ]
+		return [ "add", "sub", "multy", "divi", "+", "-" ,"/" ]
 
 	def isLegal(self, s):
 		return s in self.legal()
