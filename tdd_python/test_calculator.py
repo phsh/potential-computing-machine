@@ -31,6 +31,10 @@ class TddInPyhton(unittest.TestCase):
 		result = self.calc.isLegal("+")
 		self.assertTrue(result)
 
+	def test_isLegal_subSign_random(self):
+		result = self.calc.isLegal("-")
+		self.assertTrue(result)
+
 	def test_isLegal_sub_true(self):
 		result = self.calc.isLegal("sub")		
 		self.assertTrue(result)
